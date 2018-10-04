@@ -1,11 +1,14 @@
 {
   "name": "@auxilin/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Auxilin",
   "description": "Auxilin ESLint config",
   "private": false,
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -21,6 +24,9 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "5.4.0"
   },
   "engines": {
     "node": ">= 6"
