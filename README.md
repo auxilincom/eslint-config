@@ -1,14 +1,18 @@
 # ESLint config
 
+[![Auxilin.com — Production ready Node, React starter kit for building products at a warp speed](https://raw.githubusercontent.com/auxilincom/component-template/master/assets/cover-black.png)](https://github.com/auxilincom/auxilin)
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![npm version](https://badge.fury.io/js/%40auxilin%2Feslint-config.svg)](https://badge.fury.io/js/%40auxilin%2Feslint-config) 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/auxilin/eslint-config/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
+[![David Dependancy Status](https://david-dm.org/auxilincom/eslint-config.svg)](https://david-dm.org/auxilincom/eslint-config)
 
 [![Watch on GitHub](https://img.shields.io/github/watchers/auxilincom/eslint-config.svg?style=social&label=Watch)](https://github.com/auxilincom/eslint-config/watchers)
 [![Star on GitHub](https://img.shields.io/github/stars/auxilincom/eslint-config.svg?style=social&label=Stars)](https://github.com/auxilincom/eslint-config/stargazers)
+[![Follow](https://img.shields.io/twitter/follow/auxilin.svg?style=social&label=Follow)](https://twitter.com/auxilin)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/auxilincom/eslint-config.svg?style=social)](https://twitter.com/intent/tweet?text=I%27m%20using%20Auxilin%20components%20to%20build%20my%20next%20product%20🚀.%20Check%20it%20out:%20https://github.com/auxilincom/eslint-config)
+[![@auxilin](https://img.shields.io/badge/%F0%9F%92%AC%20Telegram-t.me/auxilin-blue.svg)](https://t.me/auxilin)
 
 ESLint configuration. Currently based on [eslint-config-airbnb](https://github.com/airbnb/javascript).
 
