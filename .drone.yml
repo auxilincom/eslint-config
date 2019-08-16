@@ -1,7 +1,17 @@
-pipeline:
-  publish-eslint-config:
-    image: plugins/npm
-    secrets: [ npm_username, npm_email, npm_password ]
-    when:
-      event: [tag]
-      branches: [ master ]
+kind: pipeline
+name: npm
+
+steps:
+- name: publish-eslint-config
+  image: plugins/npm
+  settings:
+    username:
+      from_secret: npm_username
+    password:
+      from_secret: npm_password
+    email:
+      from_secret: npm_email
+
+trigger:
+  event:
+  - tag

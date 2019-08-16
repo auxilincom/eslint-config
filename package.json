@@ -1,6 +1,6 @@
 {
   "name": "@auxilin/eslint-config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Auxilin",
   "description": "Auxilin ESLint config",
   "private": false,
@@ -16,17 +16,18 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^5.3.0",
-    "babel-eslint": "^10.0.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.0"
+    "eslint": "^5.16.0 || ^6.1.0",
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0"
+    "eslint-config-airbnb": "^18.0.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "5.11.0"
+    "all-contributors-cli": "6.8.1"
   },
   "engines": {
     "node": ">= 6"
